@@ -1,0 +1,11 @@
+# This is all metadata _about_ your module
+name: your-module-name
+license: MIT
+licenselink: 'https://github.com/organization/repository/blob/main/LICENSE'
+description: Hugo module for extending Platen
+homepage: 'https://platen.io/'
+tags: []
+features: []
+author:
+  name: Your Name Here
+  homepage: 'https://your.preferred/website/here'

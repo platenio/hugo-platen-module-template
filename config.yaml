@@ -1,0 +1,24 @@
+# Every setting in this file is applied to the site using it
+# unless they specifically override what you set here.
+
+# If you have any dependencies *other than* hugo-platen,
+# declare them here (one per line, must start with ` - path:`)
+module:
+  hugoVersion:
+    extended: true
+    # Set an upper bound on what versions of hugo this module works with
+    # max: ""
+    # Set a lower bound on what versions of hugo this module works with
+    # min: ""
+  imports:
+  # - path: github.com/organization/repository_name
+
+# This is where you add your configuration items and their
+# defaults. It's good practice to document what they're doing.
+# Where possible, try to keep you params namespaced to your
+# module so they don't conflict elsewhere.
+# users can access the example params like:
+#     .Site.Params.MyModule.MyConfig
+params:
+  MyModule:
+    MyConfig: foo
